@@ -1,22 +1,22 @@
 package packag;
 
+import static org.junit.Assert.*;
+
 import java.io.BufferedReader;
 import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 
-public class Main {
+import org.junit.Test;
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public class MainTest {
+	
+	FileInputStream fstream;
+	DataInputStream in;
+	BufferedReader br;
 
-		FileInputStream fstream;
-		DataInputStream in;
-		BufferedReader br;
-
+	@Test
+	public void reading(){
 		try{
 			  fstream = new FileInputStream("text.txt");
 			 
@@ -33,9 +33,7 @@ public class Main {
 			  in.close();
 			    }catch (Exception e){//Catch exception if any
 			  System.err.println("Error: " + e.getMessage());
-			 
+			  fail();
 			  }
-		
 	}
-
 }
