@@ -1,2 +1,2 @@
 #README#
-This repository is used for me to add some tools and old projects.
+I use this repository to store some tools and practices of the university
