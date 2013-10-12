@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding:0;
+}
+.contenedora{
+	margin:auto;
+	width:80%;
+	height:80%;
+}
+.cabecera{
+	width:100%;
+	height:92px;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	background:url(imagenes/cabecera.png);
+	background-repeat:no-repeat;
+}
+.menuSuperior{
+	width:100%;
+	height:15%;
+	border:solid;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	
+}
+.lugarenlapagina{
+	width:100%;
+	height:15%;
+	border:solid;
+	background:#FFF;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+.cuerpo{
+	width:100%;
+	height:65%;
+	border-left:solid;
+	border-right:solid;
+	border-bottom:solid;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding:5px;
+
+}
+.cuerpo form {
+	margin-left:5px;
+}
+.cuerpoNovedades{
+	width:100%;
+	height:65%;
+	border-left:solid;
+	border-right:solid;
+	border-bottom:solid;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	text-align:center;
+}
+#listalibros{
+	border:solid;
+	border-collapse:collapse;
+	margin:auto;
+}
+.pie{
+	text-align:center;
+	width:100%;
+	height:15%;
+}
+td{
+	border:thin;	
+	background:#FFF
+}
+#tablamenu{
+	width:100%;
+	background:#000;
+	text-align:center;
+	
+}
+#bienvenida{
+	text-align:center;
+	padding:5px;
+}
+.menuSuperior td:hover{
+	background:#066;
+	color:#FFF;	
+}
+.menuSuperior tr td:hover{
+	background:#066;	
+}
+.menuSuperior a:hover{
+	color:#FFF;
+}
+.menuSuperior a{
+	text-decoration:none;
+	color:#000;
+}
+#mid{
+	text-align:center;
+}
+#listalibros td{
+	border:solid;
+	border-collapse:collapse;
+}
+#listalibrosCabecera td{
+	background:#fcf;
+}
+#tabla tr td,#tabla2 tr td,.isbdt tr td{
+	border:solid;	
+	text-align:center;
+	empty-cells:show;
+	border-collapse:collapse;
+}
+#tabla,#tabla2,#isbdt{
+	margin:auto;
+	border:solid;
+	width:80%;
+}
+#tabla tr td,.isbdt tr td{
+	height:50px;
+}
+#tabla2 tr td{
+	height:20px;
+}
+.title{
+	background:#FCF;
+}
+.vistaetiqtext{
+	text-align:center;
+	font-weight:bold;
+}
+.secondLane{
+	background:#B5AFEF;
+}
+.thirdLane{
+	background:#FED8FD;
+}
+#pref{
+	font-size:24px;
+	font-weight:bold;
+	text-decoration:underline;
+	font-family:Verdana, Geneva, sans-serif;
+}
+#btnLogin{
+	margin-top:10px;
+	width:50%;	
+}
+.listalink{
+	margin-left:25px;
+}
+.titulo{
+	font-weight:bold;
+	text-decoration:underline;
+	font-size:24px;
+}
+.isbdt{
+	border:solid;
+	border-collapse:collapse;
+	
+}
+.isbdt tr td {
+	background:#FEE0F8;	
+}
+.stars{
+	width:20%;
+	text-align:right;
+	background-image:url(imagenes/estrellas.png);
+	background-repeat:no-repeat;	
+}
+.cuerpoNovedades p, .cuerpo p {
+	text-align:left;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.lugarenlapagina{
+	padding:5px;
+}
+#linkformatoG{
+	text-align:center;
+	color:#000;	
+	font-weight:bold;
+	text-decoration:none;
+	font-size:18px;
+	padding:5px;
+	
+}
+#profileText{
+	text-align:center;
+	text-decoration:underline;
+	font-weight:bold;
+	font-size:24px;
+}
