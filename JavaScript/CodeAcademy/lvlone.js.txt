@@ -1,0 +1,30 @@
+"Ryan";
+"Ryan".length;
+3+4;
+//Variable not recognized
+eggplant 
+// This is a comment that the computer will ignore. 
+// It is for your eyes only!
+"cake".length * 9 ;
+//Prompt
+confirm("WTF is this :D");
+prompt("Enter text here");
+//Booleans
+"Yellow world".length > 3
+//Console
+console.log ( 2* 5);
+
+console.log ( "Hello");
+console.log(15>4);
+console.log("Xiao Hui".length < 122);
+console.log("Goody Donaldson".length > 8);
+console.log(8*2 == 16);
+console.log(10>100000);
+console.log("byebye".length>120);
+//IF
+if ( 100 > 2 )
+{
+    console.log("You are good at math!");
+}
+
+console.log("Just letting you know: your program got to line 6");
